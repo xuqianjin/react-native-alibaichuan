@@ -55,10 +55,13 @@ dependencies {
     implementation 'com.ali.auth.sdk:alibabauth_ext:1.4.3@jar'
 
     //安全基础
-    implementation 'com.taobao.android:securityguardaar3:5.1.81@aar'
+    implementation 'com.taobao.android:securityguardaar3:5.4.171@aar'
+    implementation 'com.taobao.android:securitybodyaar3:5.4.99@aar'
+    implementation 'com.taobao.android:avmpaar3:5.4.36@aar'
+    implementation 'com.taobao.android:sgmiddletieraar3:5.4.9@aar'
 
     //Mtop网关
-    implementation 'com.taobao.android:mtopsdk_allinone_open:1.2.2.4@jar'
+    implementation 'com.taobao.android:mtopsdk_allinone_open:3.1.2.5@jar'
 
     //applink
     implementation 'com.alibaba.sdk.android:alibc_link_partner:1.1.0.6'
